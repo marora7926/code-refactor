@@ -9,6 +9,8 @@ body {
 }
 
 .header {
+    position: fixed;
+    width: 100%;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -20,8 +22,8 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
+.seo {
+    color: #929590;
 }
 
 .header div {
@@ -62,11 +64,6 @@ p {
 .float-left {
     float: left;
     margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
 
 .content {
@@ -163,14 +160,17 @@ p {
 
 .search-engine-optimization img {
     max-height: 200px;
+    width: 300px;
 }
 
 .online-reputation-management img {
     max-height: 200px;
+    width: 300px;
 }
 
 .social-media-marketing img {
     max-height: 200px;
+    width: 300px;
 }
 
 .search-engine-optimization h2 {
