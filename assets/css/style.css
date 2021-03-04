@@ -77,6 +77,8 @@ The "background-position property" in CSS allows you to move a background image 
     margin-left: 20px;
 }
 
+/* These three classes have the same properties therefore blocked together and same has been done for
+ other classes as below */
 .search-engine-optimization, 
 .online-reputation-management,
 .social-media-marketing {
@@ -95,6 +97,8 @@ The "background-position property" in CSS allows you to move a background image 
     width: 280px;
 }
 
+/* The "float property" places an element on the left or right side of its container, allowing text
+and inline elements to wrap around it */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -109,7 +113,7 @@ The "background-position property" in CSS allows you to move a background image 
 }
 
 p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .sidebar {
@@ -145,6 +149,7 @@ p {
     max-width: 150px;
 }
 
+/* This class define the properties of the footer section */
 .footer {
     padding: 30px;
     clear: both;
