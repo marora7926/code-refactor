@@ -1,13 +1,19 @@
+/* The asterisk (*) here is the CSS universal selectors and is used to select different types of elements.
+the command "box-sizing" tells the browser to account for any border and padding for an element's width and height.*/ 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*this element specifies the background color of the body*/
 body {
     background-color: #d9dcd6;
 }
 
+/*this class specifies the properties of the header section, for example, the "position property" specifies the type of positioning method used for an element i.e. relative, 
+absolute, or fixed. Another property mentioned below is the "font-family property", which can hold several font names as a "fallback" system. If a browser does not support 
+the first font, it tries the next font and so on. the "color property" is for color of the font.*/
 .header {
     position: fixed;
     width: 100%;
@@ -17,15 +23,20 @@ body {
     color: #ffffff;
 }
 
+/* The "display property" specifies the display behavior (the type of rendering box) of an element. */
+/* The "font-size property" specifies the size of the font used. */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* this class has been created to have a different color to the characters "seo" within "Horiseon" in the header as well as footer section */
 .seo {
     color: #929590;
 }
 
+/* The "float property" specifies how an element should float. In this case the "nav element" is floating on the right in the header section. 
+Note: Absolutely positioned elements ignore the float property! */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,17 +45,23 @@ body {
     font-size: 20px;
 }
 
+/* The "list-style-type property" sets the marker (such as a disc, character, or custom counter style) of a list item element. 
+Note: Because this property is inherited, it can be set on a parent element (<ol> or <ul>) to make the same list styling apply to all the items inside.
+In our case, we set this to "none" as this was not required on the website header section (as they are set as navigator tabs) */
 .header nav ul li {
     display: inline-block;
     margin-left: 20px;
     list-style-type: none;
 }
 
+/* The "text-decoration property" specifies the decoration added to text */
 a {
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
+/* The "background-size property" specifies the size of the background images. 
+The "background-position property" in CSS allows you to move a background image (or gradient) around within its container */
 .main {
     height: 800px;
     width: 100%;
@@ -92,7 +109,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .sidebar {
@@ -133,6 +150,8 @@ p {
     clear: both;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    background-color: #2a607c;
+    color: #ffffff;
 }
 
 .footer h2 {
